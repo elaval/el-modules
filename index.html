@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+	<div id="msg"></div>
+
+	<script src="js/demo.umd.js"></script>
+	<script src="node_modules/requirejs/require.js"></script>	
+	
+	<script>
+		require.config({
+		paths: {
+			cjs: 'bower_components/cjs/cjs',
+			'amd-loader': 'bower_components/amd-loader/amd-loader'
+		}
+		})
+	</script>
+
+	<script src="js/demo.plain.js"></script>		
+	<script src="js/demo.iife.js"></script>	
+
+	<script src="js/noise.js"></script>
+	<script src="js/main.js"></script>
+
+
+<body>
+</html>

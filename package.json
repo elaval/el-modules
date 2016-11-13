@@ -1,0 +1,17 @@
+{
+  "name": "el-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "rollup-plugin-minify": "^1.0.3",
+    "rollup-plugin-uglify": "^1.0.1",
+    "uglify-js": "^2.7.4"
+  }
+}
